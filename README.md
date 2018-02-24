@@ -34,15 +34,16 @@ npm init
   
   然后把test文件夹里面的文件放进去，只要把lib文件夹里面的min.js文件替换为你要发布的sdk就行了
   
-  ###  登录你的npm账号 输入username password email
+  ### 登录你的npm账号 输入username password email
   ```bash
   npm login
   ```
   
   如果下方显示 login in as charten on https://registry.npmjs.org/. 则登录成功
 
-  ### 在该目录文件下执行
-  ```bash
+  ### 在该目录文件下执行
+  
+  ```bash
   npm publish
   ```
   
