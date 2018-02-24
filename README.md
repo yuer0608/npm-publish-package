@@ -3,7 +3,10 @@ publish npm package
 
 ### 在npm上注册一个账号
 
-### 选择一个文件夹，然后用命令行到该文件夹下执行 npm init
+### 选择一个文件夹，然后用命令行到该文件夹下执行 
+```bash
+npm init
+```
 
   接下来就是一长串表单：
 
@@ -31,11 +34,17 @@ publish npm package
   
   然后把test文件夹里面的文件放进去，只要把lib文件夹里面的min.js文件替换为你要发布的sdk就行了
   
-  ### npm login 登录你的npm账号 输入username password email
+  ###  登录你的npm账号 输入username password email
+  ```bash
+  npm login
+  ```
   
   如果下方显示 login in as charten on https://registry.npmjs.org/. 则登录成功
 
-  ### 在该目录下使用npm publish
+  ### 在该目录文件下执行
+  ```bash
+  npm publish
+  ```
   
   一般情况下，一旦你要修改你已经发布后的代码，然后又要执行发布操作，务必到package.json里面，把version改一下，比如从1.0.0改为1.0.1，然后在执行     npm publish，这样就可以成功发布了。、
   
